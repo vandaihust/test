@@ -10,4 +10,9 @@ public class EduController {
     public ResponseEntity<?> testest() {
         return ResponseEntity.ok("test");
     }
+
+    @GetMapping("/test/v2")
+    public ResponseEntity<?> testestV2() {
+        return ResponseEntity.ok("test");
+    }
 }
